@@ -1,0 +1,143 @@
+[
+    {
+        "question": "Was gehört neben dem Gehalt noch zu den Lohnkosten?",
+        "choices": [
+            "Nur die Gehälter der Mitarbeiter",
+            "Sozialabgaben, Überstundenvergütungen, Zuschläge",
+            "Nur die Bonuszahlungen",
+            "Nur die Reisekosten"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Sozialabgaben: Dies umfasst den Arbeitgeberanteil zur Sozialversicherung, einschließlich Renten-, Kranken-, Arbeitslosen- und Pflegeversicherung.",
+            "- Überstundenvergütungen und Zuschläge: Zusätzliche Zahlungen für geleistete Überstunden sowie Zuschläge für Nacht-, Sonn- und Feiertagsarbeit.",
+            "- Weitere Personalnebenkosten: Dies können Kosten für Urlaubsgeld, Weihnachtsgeld, vermögenswirksame Leistungen und sonstige betriebliche Sozialleistungen sein."
+        ]
+    },
+    {
+        "question": "Welche Sozialabgabe unterscheidet sich von den anderen und inwiefern?",
+        "choices": [
+            "Rentenversicherung, weil sie unabhängig vom Einkommen ist",
+            "Krankenversicherung, da sie eine Familienversicherung umfasst",
+            "Arbeitslosenversicherung, weil sie nur von Arbeitnehmern getragen wird",
+            "Pflegeversicherung, da sie einkommensunabhängig ist"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Krankenversicherung: Diese umfasst auch nicht arbeitende Familienmitglieder des Arbeitnehmers (Familienversicherung), wodurch sie sich von anderen Sozialabgaben unterscheidet.",
+            "- Unterschiede zu anderen Sozialabgaben: Während andere Sozialabgaben individuell auf den Arbeitnehmer bezogen sind, bietet die Krankenversicherung zusätzlichen Schutz für Familienmitglieder."
+        ]
+    },
+    {
+        "question": "Was vergleicht eine Nutzwertanalyse nicht?",
+        "choices": [
+            "Monetäre Vorteile",
+            "Qualitative Kriterien",
+            "Subjektive Einschätzungen",
+            "Alternative Lösungsmöglichkeiten"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Nutzwertanalyse: Diese Methode konzentriert sich auf qualitative und subjektive Kriterien, um den Nutzen verschiedener Alternativen zu bewerten.",
+            "- Monetäre Vorteile werden in anderen Analysen betrachtet: Finanzielle Aspekte werden typischerweise durch Kosten-Nutzen-Analysen oder Investitionsrechnungen bewertet."
+        ]
+    },
+    {
+        "question": "Was ist ein Nicht-Monetärer Nutzen?",
+        "choices": [
+            "Ein finanzieller Gewinn",
+            "Ein qualitativer Vorteil ohne direkten finanziellen Wert",
+            "Eine Kosteneinsparung",
+            "Ein monetärer Gewinn durch Investitionen"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Qualitativer Vorteil: Nicht-monetäre Nutzen umfassen Vorteile wie höhere Kundenzufriedenheit, verbesserte Mitarbeiterzufriedenheit oder gesteigerte Unternehmensreputation.",
+            "- Kein direkter finanzieller Wert: Im Gegensatz zu monetären Nutzen, die in Geldbeträgen ausgedrückt werden, sind nicht-monetäre Nutzen schwerer zu quantifizieren, aber dennoch wichtig für den langfristigen Erfolg."
+        ]
+    },
+    {
+        "question": "Was sind Gemeinkosten?",
+        "choices": [
+            "Direkt zurechenbare Kosten",
+            "Indirekte Kosten, die nicht direkt einem Kostenträger zugeordnet werden können",
+            "Variable Kosten, die mit der Produktionsmenge variieren",
+            "Einmalige Kosten"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Indirekte Kosten: Gemeinkosten sind Kosten, die nicht direkt einem einzelnen Produkt oder einer Dienstleistung zugeordnet werden können. Beispiele sind Miete, Verwaltungskosten, Abschreibungen und allgemeine Bürokosten.",
+            "- Nicht direkt zurechenbar: Diese Kosten werden oft auf verschiedene Kostenträger verteilt, basierend auf bestimmten Verteilungsschlüsseln oder Zuschlagssätzen."
+        ]
+    },
+    {
+        "question": "Was ist Amortisation?",
+        "choices": [
+            "Die Rückzahlung von Verbindlichkeiten",
+            "Der Prozess der Kapitalbindung",
+            "Die Erreichung des Break-even-Points",
+            "Die lineare Abschreibung"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Erreichung des Break-even-Points: Amortisation beschreibt den Punkt, an dem die Einnahmen aus einer Investition die Kosten decken, die zur Finanzierung dieser Investition aufgewendet wurden.",
+            "- Zeitpunkt, ab dem eine Investition Gewinn abwirft: Nach der Amortisation generiert die Investition Gewinne, da alle anfänglichen Kosten gedeckt wurden."
+        ]
+    },
+    {
+        "question": "Was sind KPI?",
+        "choices": [
+            "Key Performance Indicators",
+            "Kosten- und Preisindizes",
+            "Kennzahlen für Produktionsprozesse",
+            "Kennzahlen zur Ermittlung des Break-even-Points"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Key Performance Indicators: KPIs sind messbare Werte, die den Fortschritt oder Erfolg einer Organisation in Bezug auf ihre strategischen Ziele und Vorgaben anzeigen.",
+            "- Leistungskennzahlen: Sie werden verwendet, um die Effektivität und Effizienz von Aktivitäten zu bewerten, wie z.B. Umsatzwachstum, Gewinnmargen, Kundenzufriedenheit und Mitarbeiterleistung."
+        ]
+    },
+    {
+        "question": "Was ist ROI?",
+        "choices": [
+            "Return on Investment",
+            "Rate of Interest",
+            "Rate of Inflation",
+            "Return of Income"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Return on Investment: ROI ist eine Kennzahl, die den Gewinn oder Verlust einer Investition im Verhältnis zu den investierten Kosten misst.",
+            "- Rentabilitätskennzahl: Es ist das Verhältnis von Gewinn zu investiertem Kapital und wird oft als Prozentsatz ausgedrückt. Ein hoher ROI zeigt eine hohe Rentabilität der Investition an."
+        ]
+    },
+    {
+        "question": "Was ist Abschreibung?",
+        "choices": [
+            "Eine Methode zur Kostenermittlung",
+            "Die Wertminderung von Vermögensgegenständen",
+            "Die Erhöhung des Anlagevermögens",
+            "Die Gewinnmaximierung"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Wertminderung von Vermögensgegenständen: Abschreibung ist der Prozess, durch den die Kosten eines langfristigen Vermögenswertes über dessen Nutzungsdauer verteilt werden.",
+            "- Verteilt die Anschaffungskosten über die Nutzungsdauer: Dies ermöglicht es Unternehmen, die Kosten eines Vermögenswertes auf mehrere Perioden zu verteilen, anstatt sie nur in dem Jahr zu erfassen, in dem der Vermögenswert erworben wurde."
+        ]
+    },
+    {
+        "question": "Was ist Wirtschaftlichkeit?",
+        "choices": [
+            "Die Effizienz der Ressourcennutzung",
+            "Die maximale Produktion von Gütern",
+            "Die Minimierung der Produktionskosten",
+            "Die Erhöhung des Umsatzes"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Effizienz der Ressourcennutzung: Wirtschaftlichkeit misst, wie gut ein Unternehmen seine Ressourcen nutzt, um maximale Ergebnisse zu erzielen.",
+            "- Verhältnis von Aufwand und Ertrag: Ein hohes Maß an Wirtschaftlichkeit bedeutet, dass ein Unternehmen mit minimalem Ressourceneinsatz maximale Erträge erzielt. Es geht darum, das beste Verhältnis zwischen Input und Output zu erreichen."
+        ]
+    }   
+]

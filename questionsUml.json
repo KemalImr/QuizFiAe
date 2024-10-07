@@ -1,0 +1,159 @@
+[
+    {
+        "question": "Welche UML-Diagramme gibt es?",
+        "choices": [
+            "Klassendiagramm, Usecase-Diagramm, Sequenzdiagramm",
+            "Entity-Relationship-Diagramm, Prozessdiagramm",
+            "Flussdiagramm, Zustandsdiagramm",
+            "Alle genannten"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Klassendiagramm: Struktur der Klassen und deren Beziehungen",
+            "- Usecase-Diagramm: Funktionen und Benutzerinteraktionen",
+            "- Sequenzdiagramm: Interaktionen zwischen Objekten in zeitlicher Reihenfolge"
+        ]
+    },
+    {
+        "question": "Wozu wird ein Klassendiagramm benutzt?",
+        "choices": [
+            "Zur Darstellung von Benutzerinteraktionen",
+            "Zur Modellierung der statischen Struktur eines Systems",
+            "Zur Beschreibung von Geschäftsprozessen",
+            "Zur Visualisierung der Datenbanktabellen"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Modellierung der statischen Struktur eines Systems",
+            "- Zeigt Klassen, Attribute, Methoden und Beziehungen"
+        ]
+    },
+    {
+        "question": "Welche Beziehungen gibt es in einem Klassendiagramm?",
+        "choices": [
+            "Assoziation, Aggregation, Komposition, Vererbung",
+            "Verbindung, Korrelation, Abhängigkeit, Hierarchie",
+            "Link, Bindung, Referenz, Vererbung",
+            "Verbindung, Aggregation, Link, Referenz"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Assoziation: Allgemeine Beziehung zwischen Klassen",
+            "- Aggregation: Ganzes-Teil-Beziehung",
+            "- Komposition: Stärkere Form der Aggregation",
+            "- Vererbung: Beziehung zwischen Ober- und Unterklasse"
+        ]
+    },
+    {
+        "question": "Wie unterscheiden sich Komposition und Aggregation?",
+        "choices": [
+            "Komposition: Starke Bindung; Aggregation: Schwache Bindung",
+            "Komposition: Schwache Bindung; Aggregation: Starke Bindung",
+            "Komposition: Objekte können unabhängig existieren; Aggregation: Objekte sind voneinander abhängig",
+            "Komposition: Objekte sind voneinander unabhängig; Aggregation: Objekte sind voneinander abhängig"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Komposition: Starke Bindung, Teile können ohne Ganzes nicht existieren",
+            "- Aggregation: Schwache Bindung, Teile können unabhängig existieren"
+        ]
+    },
+    {
+        "question": "Was ist ein Usecase-Diagramm?",
+        "choices": [
+            "Ein Diagramm zur Modellierung der statischen Struktur eines Systems",
+            "Ein Diagramm zur Darstellung der Interaktionen zwischen Benutzern und dem System",
+            "Ein Diagramm zur Beschreibung der Datenflüsse",
+            "Ein Diagramm zur Visualisierung der Klassenhierarchie"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Darstellung der Interaktionen zwischen Benutzern und dem System",
+            "- Zeigt Usecases und Akteure"
+        ]
+    },
+    {
+        "question": "Was ist ein Akteur im Usecase-Diagramm?",
+        "choices": [
+            "Ein Objekt innerhalb des Systems",
+            "Eine Klasse, die Methoden enthält",
+            "Ein externer Benutzer oder System, das mit dem System interagiert",
+            "Eine Datenbanktabelle"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Externer Benutzer oder System, das mit dem System interagiert",
+            "- Kann Mensch, Software oder Hardware sein"
+        ]
+    },
+    {
+        "question": "Wo befindet sich der Akteur im Usecase-Diagramm?",
+        "choices": [
+            "Innerhalb des Systems",
+            "Außerhalb des Systems",
+            "Neben den Usecases",
+            "In den Klassen"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Akteur befindet sich außerhalb des Systems",
+            "- Interagiert mit Usecases"
+        ]
+    },
+    {
+        "question": "Was ist Vererbung im Usecase-Diagramm und wie wird sie dargestellt?",
+        "choices": [
+            "Eine Beziehung zwischen zwei Usecases, dargestellt durch eine gestrichelte Linie",
+            "Eine Beziehung zwischen zwei Akteuren, dargestellt durch eine durchgehende Linie",
+            "Eine Beziehung zwischen einem allgemeinen und einem spezifischen Usecase, dargestellt durch eine gestrichelte Linie mit Pfeil",
+            "Eine Beziehung zwischen zwei Systemen, dargestellt durch eine gepunktete Linie"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Beziehung zwischen einem allgemeinen und einem spezifischen Usecase",
+            "- Dargestellt durch eine gestrichelte Linie mit Pfeil"
+        ]
+    },
+    {
+        "question": "Was ist der Unterschied zwischen include und extends?",
+        "choices": [
+            "Include: Pflichtverhalten; Extends: Optionales Verhalten",
+            "Include: Optionales Verhalten; Extends: Pflichtverhalten",
+            "Include: Vererbung; Extends: Assoziation",
+            "Include: Aggregation; Extends: Komposition"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Include: Pflichtverhalten, der Usecase muss ausgeführt werden",
+            "- Extends: Optionales Verhalten, der Usecase kann ausgeführt werden"
+        ]
+    },
+    {
+        "question": "Was ist ein Aktivitätsdiagramm?",
+        "choices": [
+            "Ein Diagramm zur Darstellung von Benutzerinteraktionen",
+            "Ein Diagramm zur Modellierung der Klassenstruktur",
+            "Ein Diagramm zur Beschreibung des Arbeitsablaufs oder der Aktivitäten",
+            "Ein Diagramm zur Visualisierung der Datenbanktabellen"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Beschreibung des Arbeitsablaufs oder der Aktivitäten",
+            "- Zeigt die Reihenfolge und Bedingungen von Aktivitäten"
+        ]
+    },
+    {
+        "question": "Was ist ein Sequenzdiagramm?",
+        "choices": [
+            "Ein Diagramm zur Beschreibung der statischen Struktur eines Systems",
+            "Ein Diagramm zur Visualisierung der Klassenhierarchie",
+            "Ein Diagramm zur Darstellung der Interaktionen zwischen Objekten in zeitlicher Reihenfolge",
+            "Ein Diagramm zur Modellierung der Datenflüsse"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Darstellung der Interaktionen zwischen Objekten in zeitlicher Reihenfolge",
+            "- Zeigt die Reihenfolge der Nachrichten und Ereignisse"
+        ]
+    }
+]

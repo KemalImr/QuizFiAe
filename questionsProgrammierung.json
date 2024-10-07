@@ -1,0 +1,495 @@
+[
+    {
+        "question": "Welches der folgenden ist ein Programmierparadigma?",
+        "choices": [
+            "Imperativ",
+            "Objektorientiert",
+            "Funktional",
+            "Alle genannten"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Imperativ: beschreibt, wie etwas gemacht werden soll",
+            "- Deklarativ: beschreibt, was gemacht werden soll",
+            "- Objektorientiert: basiert auf Objekten und Klassen",
+            "- Funktional: basiert auf mathematischen Funktionen"
+        ]
+    },
+    {
+        "question": "Welche Merkmale zeichnen die Objektorientierte Programmierung aus?",
+        "choices": [
+            "Sequenzierung, Auswahl, Iteration",
+            "Parallelität, Verteilung, Synchronisation",
+            "Rekursion, Memoisierung, Tail Call Optimization",
+            "Kapselung, Vererbung, Polymorphismus"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Kapselung: Daten und Methoden in Klassen zusammengefasst",
+            "- Vererbung: Klassen können von anderen Klassen erben",
+            "- Polymorphismus: Methoden können unterschiedliche Implementierungen haben"
+        ]
+    },
+    {
+        "question": "Was sind Objekte?",
+        "choices": [
+            "Variablen",
+            "Methoden",
+            "Interfaces",
+            "Instanzen von Klassen"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Instanzen von Klassen, die deren Eigenschaften und Methoden nutzen"
+        ]
+    },
+    {
+        "question": "Was sind Klassen?",
+        "choices": [
+            "Blöcke von Anweisungen",
+            "Blöcke von Daten und Methoden",
+            "Blöcke von Methoden",
+            "Blöcke von Daten"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Definitionen von Objekten mit Daten und Methoden"
+        ]
+    },
+    {
+        "question": "Was sind Variablen?",
+        "choices": [
+            "Methoden",
+            "Objekte",
+            "Interfaces",
+            "Speicherplätze für Daten"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Speicherplätze für Daten, die benannt und genutzt werden können"
+        ]
+    },
+    {
+        "question": "Was ist „public“, „private“ und „protected“?",
+        "choices": [
+            "Zugriffsmodifikatoren",
+            "Variablentypen",
+            "Methodenarten",
+            "Klassenarten"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Bestimmen die Sichtbarkeit und Zugänglichkeit von Klassenmitgliedern"
+        ]
+    },
+    {
+        "question": "Was bedeutet Static?",
+        "choices": [
+            "Eine Methode, die nur einmal ausgeführt wird",
+            "Eine Methode, die nicht überschrieben werden kann",
+            "Eine Variable oder Methode, die zu einem Objekt gehört",
+            "Eine Variable oder Methode, die zur Klasse gehört"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Gehört zur Klasse und nicht zu einer Instanz der Klasse"
+        ]
+    },
+    {
+        "question": "Was bedeutet „public static void“?",
+        "choices": [
+            "Eine private, statische Methode ohne Rückgabewert",
+            "Eine geschützte, statische Methode mit Rückgabewert",
+            "Eine öffentliche, statische Methode ohne Rückgabewert",
+            "Eine öffentliche Methode mit Rückgabewert"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Öffentliche Methode, die zur Klasse gehört und keinen Wert zurückgibt"
+        ]
+    },
+    {
+        "question": "Was ist Vererbung?",
+        "choices": [
+            "Eine Beziehung zwischen Klassen",
+            "Eine Methode zur Datenkapselung",
+            "Eine Art von Schnittstelle",
+            "Eine Art von Datenstruktur"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Klassen können von anderen Klassen erben und deren Eigenschaften und Methoden übernehmen"
+        ]
+    },
+    {
+        "question": "Was ist Kapselung?",
+        "choices": [
+            "Das Verbergen von Implementierungsdetails",
+            "Das Erben von Klassen",
+            "Das Erstellen von Objekten",
+            "Das Verwenden von Schnittstellen"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Daten und Methoden sind innerhalb einer Klasse verborgen und nur über definierte Schnittstellen zugänglich"
+        ]
+    },
+    {
+        "question": "Was ist ein Interface?",
+        "choices": [
+            "Eine Klasse",
+            "Ein Objekt",
+            "Ein Interface",
+            "Eine Definition von Methoden, die von Klassen implementiert werden"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine Definition von Methoden, die von Klassen implementiert werden müssen"
+        ]
+    },
+    {
+        "question": "Was ist eine Abstrakte Klasse?",
+        "choices": [
+            "Eine Klasse, die nicht instanziiert werden kann",
+            "Eine Klasse ohne Methoden",
+            "Eine Klasse mit nur statischen Methoden",
+            "Eine Klasse ohne Konstruktoren"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Eine Klasse, die nicht instanziiert werden kann und die abstrakte Methoden enthalten kann"
+        ]
+    },
+    {
+        "question": "Was ist ein Predicate?",
+        "choices": [
+            "Eine Methode, die eine Zeichenkette zurückgibt",
+            "Eine Methode, die eine Zahl zurückgibt",
+            "Eine Methode, die ein Objekt zurückgibt",
+            "Eine Methode, die einen Wahrheitswert zurückgibt"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine Methode, die einen Wahrheitswert zurückgibt"
+        ]
+    },
+    {
+        "question": "Was ist eine Lambda-Expression?",
+        "choices": [
+            "Eine Methode",
+            "Ein Objekt",
+            "Ein Interface",
+            "Eine anonyme Funktion"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine anonyme Funktion, die als Argument übergeben oder als Wert zurückgegeben werden kann"
+        ]
+    },
+    {
+        "question": "Was ist ein Array?",
+        "choices": [
+            "Eine Methode",
+            "Ein Objekt",
+            "Ein Interface",
+            "Eine Sammlung von Elementen gleichen Typs"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine Sammlung von Elementen gleichen Typs, die über Indizes zugänglich sind"
+        ]
+    },
+    {
+        "question": "Was ist der erste Eintrag eines Arrays?",
+        "choices": [
+            "Element mit Index 1",
+            "Element mit Index -1",
+            "Element mit Index 2",
+            "Element mit Index 0"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Das erste Element eines Arrays hat den Index 0"
+        ]
+    },
+    {
+        "question": "Was ist ein 2D Array?",
+        "choices": [
+            "Ein Array von Arrays",
+            "Ein Array von Methoden",
+            "Ein Array von Objekten",
+            "Ein Array von Interfaces"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Ein Array, dessen Elemente wiederum Arrays sind"
+        ]
+    },
+    {
+        "question": "Wie kann man eine Tabelle in ein Programm übertragen?",
+        "choices": [
+            "Als Methode",
+            "Als Objekt",
+            "Als Interface",
+            "Als 2D Array"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Tabellen können als 2D Arrays im Programm dargestellt werden"
+        ]
+    },
+    {
+        "question": "Was ist eine Liste?",
+        "choices": [
+            "Eine ungeordnete Sammlung von Elementen",
+            "Ein Array",
+            "Ein Interface",
+            "Eine geordnete Sammlung von Elementen"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine geordnete Sammlung von Elementen, die sich in ihrer Größe dynamisch verändern kann"
+        ]
+    },
+    {
+        "question": "Was ist eine Map?",
+        "choices": [
+            "Eine geordnete Liste",
+            "Ein Array",
+            "Ein Interface",
+            "Eine Sammlung von Schlüssel-Wert-Paaren"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine Sammlung von Schlüssel-Wert-Paaren, wobei jeder Schlüssel eindeutig ist"
+        ]
+    },
+    {
+        "question": "Was bedeutet ObservableMap/List?",
+        "choices": [
+            "Eine geordnete Liste",
+            "Ein Array",
+            "Ein Interface",
+            "Eine Map/List, die Änderungen überwachen kann"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine Map/List, die Änderungen überwachen und darauf reagieren kann"
+        ]
+    },
+    {
+        "question": "Was ist der Unterschied zwischen Compiler und Interpreter?",
+        "choices": [
+            "Compiler: Übersetzt Code Zeile für Zeile; Interpreter: Übersetzt den gesamten Code auf einmal",
+            "Compiler: Führt Code direkt aus; Interpreter: Übersetzt Code zuerst",
+            "Compiler: Übersetzt Code; Interpreter: Führt Code direkt aus",
+            "Compiler: Übersetzt den gesamten Code auf einmal; Interpreter: Übersetzt Code Zeile für Zeile"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Compiler: Übersetzt den gesamten Code auf einmal und erzeugt eine ausführbare Datei",
+            "- Interpreter: Übersetzt Code Zeile für Zeile und führt ihn direkt aus"
+        ]
+    },
+    {
+        "question": "Welche Sprachen nutzen Compiler und welche Interpreter?",
+        "choices": [
+            "Compiler: Python, JavaScript; Interpreter: C, C++",
+            "Compiler: JavaScript, HTML; Interpreter: C++, Java",
+            "Compiler: HTML, CSS; Interpreter: Java, C#",
+            "Compiler: C, C++; Interpreter: Python, JavaScript"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Compiler: C, C++",
+            "- Interpreter: Python, JavaScript"
+        ]
+    },
+    {
+        "question": "Was bedeutet JIT?",
+        "choices": [
+            "Just-In-Time Interpretation",
+            "Java-Interpreted Translation",
+            "Java-Integrated Toolkit",
+            "Just-In-Time Compilation"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Just-In-Time Compilation: Code wird zur Laufzeit kompiliert"
+        ]
+    },
+    {
+        "question": "Versionierung kann mit welcher Methode stattfinden?",
+        "choices": [
+            "SSH",
+            "FTP",
+            "HTTP",
+            "Git"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Git ist ein verbreitetes System zur Versionskontrolle"
+        ]
+    },
+    {
+        "question": "Was ist ein Branch?",
+        "choices": [
+            "Eine Methode",
+            "Ein Interface",
+            "Eine Klasse",
+            "Ein paralleler Entwicklungsstrang im Versionskontrollsystem"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Ein paralleler Entwicklungsstrang im Versionskontrollsystem, der es ermöglicht, unabhängig vom Hauptentwicklungsstrang zu arbeiten"
+        ]
+    },
+    {
+        "question": "Top-Down & Bottom-Up, was bedeutet das?",
+        "choices": [
+            "Top-Down: Vom Detail ins Grobe; Bottom-Up: Vom Groben ins Detail",
+            "Top-Down: Vom Start zum Ende; Bottom-Up: Vom Ende zum Start",
+            "Top-Down: Vom Hauptspeicher zur Festplatte; Bottom-Up: Von der Festplatte zum Hauptspeicher",
+            "Top-Down: Vom Groben ins Detail; Bottom-Up: Vom Detail ins Grobe"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Top-Down: Systematische Dekomposition von groben Strukturen in detaillierte",
+            "- Bottom-Up: Zusammensetzen von Einzelteilen zu einem Ganzen"
+        ]
+    },
+    {
+        "question": "Was sind Exceptions?",
+        "choices": [
+            "Compiler-Fehler",
+            "Syntaxfehler",
+            "Logikfehler",
+            "Laufzeitfehler"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Laufzeitfehler, die während der Ausführung eines Programms auftreten und spezielle Behandlung erfordern"
+        ]
+    },
+    {
+        "question": "Was ist neben der Programmierung noch wichtig? (Kommentare, Dokumentation)",
+        "choices": [
+            "Nur Programmierung",
+            "Nur Kommentare",
+            "Nur Dokumentation",
+            "Kommentare und Dokumentation"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Kommentare und Dokumentation sind essenziell, um den Code verständlich und wartbar zu machen"
+        ]
+    },
+    {
+        "question": "Was ist Pair-Programming bzw. Paarprogrammierung?",
+        "choices": [
+            "Zwei Computer arbeiten zusammen",
+            "Ein Entwickler arbeitet an zwei Computern",
+            "Ein Entwickler schreibt Code, der andere testet ihn",
+            "Zwei Entwickler arbeiten zusammen an einem Computer"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Zwei Entwickler arbeiten zusammen an einem Computer, wobei einer schreibt und der andere überprüft"
+        ]
+    },
+    {
+        "question": "Was ist DevOps?",
+        "choices": [
+            "Ein Programmierparadigma",
+            "Eine Programmiersprache",
+            "Ein Betriebssystem",
+            "Eine Kultur und Praxis zur Automatisierung und Integration von Entwicklungs- und IT-Prozessen"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Eine Kultur und Praxis zur Automatisierung und Integration von Entwicklungs- und IT-Prozessen, um Software schneller und zuverlässiger bereitzustellen"
+        ]
+    },
+    {
+        "question": "Welche Sortier-Algorithmen kennen Sie?",
+        "choices": [
+            "Linear Sort, Binary Sort, Quick Sort",
+            "Hash Sort, Tree Sort, Bubble Sort",
+            "Insert Sort, Heap Sort, Merge Sort",
+            "Bubble Sort, Merge Sort, Quick Sort"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Bubble Sort: Einfacher Sortieralgorithmus mit geringer Effizienz",
+            "- Merge Sort: Effizienter, stabiler Sortieralgorithmus mit Divide-and-Conquer-Ansatz",
+            "- Quick Sort: Sehr effizienter Sortieralgorithmus mit Divide-and-Conquer-Ansatz, jedoch nicht stabil"
+        ]
+    },
+    {
+        "question": "Was sind Reguläre Ausdrücke?",
+        "choices": [
+            "Muster zur Beschreibung von Zahlen",
+            "Muster zur Beschreibung von Arrays",
+            "Muster zur Beschreibung von Methoden",
+            "Muster zur Beschreibung von Zeichenketten"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Muster zur Beschreibung und Manipulation von Zeichenketten"
+        ]
+    },
+    {
+        "question": "Was ist Lazy Loading?",
+        "choices": [
+            "Eine Technik, bei der alle Daten im Voraus geladen werden",
+            "Eine Technik, bei der Daten nie geladen werden",
+            "Eine Technik, bei der Daten nach dem Laden gelöscht werden",
+            "Eine Technik, bei der Daten nur bei Bedarf geladen werden"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Daten werden nur bei Bedarf geladen, um Ressourcen zu sparen und die Performance zu verbessern"
+        ]
+    },
+    {
+        "question": "Was sind Vor- und Nachteile von Lazy Loading?",
+        "choices": [
+            "Vorteil: Sofortige Verfügbarkeit; Nachteil: Hoher Speicherverbrauch",
+            "Vorteil: Einfache Implementierung; Nachteil: Hohe Komplexität",
+            "Vorteil: Bessere Sicherheit; Nachteil: Weniger flexibel",
+            "Vorteil: Ressourcenersparnis; Nachteil: Verzögerung beim ersten Zugriff"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Vorteil: Spart Ressourcen und verbessert die Performance",
+            "- Nachteil: Kann zu Verzögerungen führen, wenn die Daten das erste Mal benötigt werden"
+        ]
+    },
+    {
+        "question": "Was ist Eager Loading?",
+        "choices": [
+            "Eine Technik, bei der alle Daten im Voraus geladen werden",
+            "Eine Technik, bei der Daten nur bei Bedarf geladen werden",
+            "Eine Technik, bei der Daten nie geladen werden",
+            "Eine Technik, bei der Daten nach dem Laden gelöscht werden"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Alle notwendigen Daten werden im Voraus geladen, um sofort verfügbar zu sein"
+        ]
+    },
+    {
+        "question": "Was sind Vor- und Nachteile von Eager Loading?",
+        "choices": [
+            "Vorteil: Ressourcenersparnis; Nachteil: Verzögerung beim ersten Zugriff",
+            "Vorteil: Einfache Implementierung; Nachteil: Hohe Komplexität",
+            "Vorteil: Bessere Sicherheit; Nachteil: Weniger flexibel",
+            "Vorteil: Sofortige Verfügbarkeit; Nachteil: Hoher Speicherverbrauch"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Vorteil: Alle Daten sind sofort verfügbar",
+            "- Nachteil: Kann zu hohem Speicherverbrauch führen"
+        ]
+    }
+]

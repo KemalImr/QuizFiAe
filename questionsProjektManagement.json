@@ -1,0 +1,381 @@
+[
+    {
+        "question": "Was ist ein Pflichtenheft?",
+        "choices": [
+            "Ein Dokument, das die Anforderungen des Auftraggebers beschreibt",
+            "Ein Dokument, das vom Auftragnehmer erstellt wird und die Umsetzung der Anforderungen beschreibt",
+            "Ein Projektplan",
+            "Ein Vertrag zwischen Auftraggeber und Auftragnehmer"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Vom Auftragnehmer erstellt als Antwort auf das Lastenheft",
+            "- Enthält eine detaillierte Beschreibung der technischen Umsetzung der Anforderungen",
+            "- Spezifiziert, wie die Anforderungen des Auftraggebers erfüllt werden sollen",
+            "- Dient als Basis für die Projektplanung und -durchführung"
+        ]
+    },
+    {
+        "question": "Was ist ein Lastenheft?",
+        "choices": [
+            "Ein Dokument, das vom Auftragnehmer erstellt wird",
+            "Ein Dokument, das die technischen Spezifikationen enthält",
+            "Ein Dokument, das vom Auftraggeber erstellt wird und die Anforderungen beschreibt",
+            "Eine Projektmanagementmethode"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Vom Auftraggeber erstellt zu Beginn eines Projekts",
+            "- Beschreibt die Gesamtheit der Anforderungen und Wünsche an das zu entwickelnde Produkt oder System",
+            "- Definiert das 'Was' und 'Wofür' des Projekts, ohne auf technische Details einzugehen",
+            "- Dient als Grundlage für die Erstellung des Pflichtenhefts durch den Auftragnehmer"
+        ]
+    },
+    {
+        "question": "Wer macht das Lastenheft und wer macht das Pflichtenheft?",
+        "choices": [
+            "Lastenheft: Auftraggeber, Pflichtenheft: Auftragnehmer",
+            "Lastenheft: Auftragnehmer, Pflichtenheft: Auftraggeber",
+            "Beide werden vom Auftraggeber erstellt",
+            "Beide werden vom Auftragnehmer erstellt"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Lastenheft wird vom Auftraggeber erstellt, um seine Anforderungen und Ziele zu definieren",
+            "- Pflichtenheft wird vom Auftragnehmer als Antwort auf das Lastenheft erstellt",
+            "- Diese Aufteilung gewährleistet eine klare Trennung zwischen Anforderungsdefinition und Umsetzungsplanung",
+            "- Fördert die Kommunikation und das gemeinsame Verständnis zwischen Auftraggeber und Auftragnehmer"
+        ]
+    },
+    {
+        "question": "Welche Alternative gibt es zum Gantt-Diagramm?",
+        "choices": [
+            "Netzplantechnik",
+            "Kalenderansicht",
+            "Task-Listen",
+            "Alle genannten"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Netzplantechnik: Visualisiert Abhängigkeiten und kritische Pfade in Projekten",
+            "- Kanban-Boards: Zeigen Arbeitsfluss und -fortschritt in Spalten",
+            "- Meilensteintrendanalyse: Vergleicht geplante mit tatsächlichen Meilenstein-Terminen",
+            "- Burndown-Chart: Stellt den Arbeitsfortschritt über die Zeit dar",
+            "- Jede Methode hat ihre Stärken und eignet sich für unterschiedliche Projektaspekte"
+        ]
+    },
+    {
+        "question": "Wozu dient ein Meilensteinplan?",
+        "choices": [
+            "Zur Übersicht der Projektkosten",
+            "Zur Übersicht der Ressourcen",
+            "Zur Übersicht der Meilensteine",
+            "Zur Übersicht der Risiken"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Bietet eine Übersicht und Kontrolle wichtiger Ereignisse im Projektverlauf",
+            "- Markiert den Abschluss bedeutender Projektphasen oder -abschnitte",
+            "- Ermöglicht die effektive Überwachung des Projektfortschritts",
+            "- Hilft bei der Kommunikation des Projektstatus an Stakeholder",
+            "- Dient als Basis für die Erfolgsmessung und Projektsteuerung"
+        ]
+    },
+    {
+        "question": "Was bekommt man beim Erreichen eines Meilensteines? (Dokumente)",
+        "choices": [
+            "Einen neuen Projektplan",
+            "Einen Projektabschlussbericht",
+            "Ein Meilenstein-Dokument",
+            "Eine Risikoanalyse"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Ein Meilenstein-Dokument dient zur formalen Dokumentation des erreichten Projektfortschritts",
+            "- Es bestätigt den Abschluss eines wichtigen Projektabschnitts oder -ziels",
+            "- Enthält typischerweise eine Zusammenfassung der erreichten Ergebnisse",
+            "- Kann auch eine Bewertung des aktuellen Projektstatus und nächste Schritte beinhalten",
+            "- Wichtig für die Projektkommunikation und als Entscheidungsgrundlage für das weitere Vorgehen"
+        ]
+    },
+    {
+        "question": "Welche Vorgehensmodelle gibt es?",
+        "choices": [
+            "Wasserfallmodell",
+            "Spiralmodell",
+            "V-Modell",
+            "Alle genannten"
+        ],
+        "answer": 3,
+        "explanation": [
+            "- Wasserfallmodell: Linear und sequenziell, gut für klar definierte Projekte",
+            "- Spiralmodell: Iterativ und risikogesteuert, kombiniert lineare und iterative Elemente",
+            "- V-Modell: Fokussiert auf Testen, parallele Entwicklungs- und Testphasen",
+            "- Jedes Modell hat spezifische Stärken und eignet sich für unterschiedliche Projektarten",
+            "- Die Wahl des Modells hängt von Projektgröße, Komplexität und Anforderungen ab"
+        ]
+    },
+    {
+        "question": "Wie ist das V-Modell aufgebaut?",
+        "choices": [
+            "In Phasen und Iterationen",
+            "In sequentiellen Stufen mit parallelen Teststufen",
+            "In spiralförmigen Zyklen",
+            "In agilen Sprints"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Strukturiert in sequentielle Entwicklungsstufen auf der linken Seite des 'V'",
+            "- Parallele Teststufen auf der rechten Seite des 'V' für jede Entwicklungsphase",
+            "- Verbindet Entwicklungs- und Testphasen durch horizontale Beziehungen",
+            "- Fördert frühzeitige Testplanung und kontinuierliche Qualitätssicherung",
+            "- Ermöglicht eine klare Zuordnung von Testergebnissen zu Entwicklungsphasen"
+        ]
+    },
+    {
+        "question": "Welche unterschiedlichen Sorten/Arten von Vorgehensmodellen gibt es? (Dokumentgetrieben, etc.)",
+        "choices": [
+            "Dokumentgetrieben, Prototypengetrieben, Agil",
+            "Phasengetrieben, Ereignisgetrieben, Aktivitätsgetrieben",
+            "Technikgetrieben, Zeitgetrieben, Risiko-getrieben",
+            "Alle genannten"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Dokumentgetrieben: Fokus auf umfassende Dokumentation in jeder Projektphase",
+            "- Prototypengetrieben: Entwicklung früher Modelle zur Validierung von Anforderungen",
+            "- Agil: Flexibel und anpassungsfähig, iterative Entwicklung mit kontinuierlichem Feedback",
+            "- Jeder Ansatz hat spezifische Vor- und Nachteile",
+            "- Die Wahl hängt von Projektart, Teamstruktur und Kundenanforderungen ab"
+        ]
+    },
+    {
+        "question": "Welche Methoden zur Aufwandschätzung kennen Sie?",
+        "choices": [
+            "Expertenschätzung, Analogiemethode, Parametrische Methode",
+            "Zeit- und Kostenschätzung, Qualitätsmethode, Benchmarking",
+            "Risikomanagement, PERT, EVM",
+            "Stakeholderanalyse, SWOT, Risikoanalyse"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Expertenschätzung: Basiert auf Erfahrung und Wissen von Fachexperten",
+            "- Analogiemethode: Vergleicht das aktuelle Projekt mit ähnlichen, abgeschlossenen Projekten",
+            "- Parametrische Methode: Verwendet mathematische Modelle und historische Daten",
+            "- Jede Methode hat ihre Stärken und eignet sich für unterschiedliche Projekttypen",
+            "- Oft wird eine Kombination verschiedener Methoden für eine genauere Schätzung verwendet"
+        ]
+    },
+    {
+        "question": "Projektsteuerung, welches Werkzeug nutzt man hierfür?",
+        "choices": [
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Microsoft Project",
+            "Adobe Photoshop"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Microsoft Project: Spezialisierte Software für Projektmanagement und -steuerung",
+            "- Ermöglicht detaillierte Planung und Verwaltung von Ressourcen",
+            "- Bietet Tools für Zeitpläne, Kostenkontrolle und Fortschrittsverfolgung",
+            "- Unterstützt verschiedene Ansichten wie Gantt-Diagramme und Ressourcenauslastung",
+            "- Erleichtert die Berichterstattung und Kommunikation im Projektteam"
+        ]
+    },
+    {
+        "question": "Was sind Organigramme?",
+        "choices": [
+            "Diagramme zur Darstellung der Projektkosten",
+            "Diagramme zur Darstellung der Projektressourcen",
+            "Diagramme zur Darstellung der Projektstruktur",
+            "Diagramme zur Darstellung der Projektrisiken"
+        ],
+        "answer": 2,
+        "explanation": [
+            "- Visuelle Darstellung der Organisationsstruktur eines Unternehmens oder Projekts",
+            "- Zeigt hierarchische Beziehungen zwischen verschiedenen Positionen oder Abteilungen",
+            "- Verdeutlicht Rollen, Verantwortlichkeiten und Berichtswege",
+            "- Hilft bei der Kommunikation der Organisationsstruktur an Mitarbeiter und Stakeholder",
+            "- Unterstützt die Planung von Ressourcen und Arbeitsabläufen"
+        ]
+    },
+    {
+        "question": "Welche Arten von Organigrammen gibt es?",
+        "choices": [
+            "Hierarchisch, Matrix, Flach",
+            "Vertikal, Horizontal, Hybrid",
+            "Statisch, Dynamisch, Interaktiv",
+            "Alle genannten"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Hierarchisch: Traditionelle Top-Down-Struktur mit klaren Befehlsketten",
+            "- Matrix: Mehrdimensionale Struktur mit Fach- und Projektverantwortlichkeiten",
+            "- Flach: Wenige Managementebenen, fördert direkte Kommunikation",
+            "- Jede Art hat Vor- und Nachteile und eignet sich für unterschiedliche Organisationsformen",
+            "- Die Wahl hängt von Unternehmensgröße, Branche und Managementphilosophie ab"
+        ]
+    },
+    {
+        "question": "Nennen Sie Vor- und Nachteile des Einliniensystems.",
+        "choices": [
+            "Vorteile: Klarheit, Einfachheit; Nachteile: Überlastung der Führungskräfte",
+            "Vorteile: Flexibilität, Anpassungsfähigkeit; Nachteile: Komplexität",
+            "Vorteile: Geringe Kosten, Schnelle Entscheidungen; Nachteile: Fehlende Kontrolle",
+            "Vorteile: Gute Kommunikation, Teamarbeit; Nachteile: Langsame Reaktionen"
+        ],
+        "answer": 0,
+        "explanation": [
+            "Vorteile:",
+            "- Klare Verantwortlichkeiten und Befehlsketten",
+            "- Einfache und übersichtliche Strukturen",
+            "- Effiziente Entscheidungsprozesse",
+            "Nachteile:",
+            "- Mögliche Überlastung der Führungskräfte durch viele direkte Unterstellungen",
+            "- Begrenzte Flexibilität bei komplexen Aufgaben",
+            "- Risiko von Kommunikationsengpässen"
+        ]
+    },
+    {
+        "question": "Nennen Sie Vor- und Nachteile des Mehrliniensystems.",
+        "choices": [
+            "Vorteile: Effiziente Ressourcennutzung, Flexibilität; Nachteile: Konfliktpotenzial",
+            "Vorteile: Klare Kommunikation, Weniger Konflikte; Nachteile: Starre Strukturen",
+            "Vorteile: Hohe Kontrolle, Geringe Komplexität; Nachteile: Ineffizienz",
+            "Vorteile: Schnellere Entscheidungsfindung, Einfache Kontrolle; Nachteile: Weniger Flexibilität"
+        ],
+        "answer": 0,
+        "explanation": [
+            "Vorteile:",
+            "- Effiziente Ressourcennutzung durch Spezialisierung",
+            "- Hohe Flexibilität bei komplexen Aufgaben",
+            "- Förderung von fachübergreifender Zusammenarbeit",
+            "Nachteile:",
+            "- Erhöhtes Konfliktpotenzial durch Mehrfachunterstellung",
+            "- Mögliche Unklarheiten bei Verantwortlichkeiten",
+            "- Erhöhter Koordinationsaufwand"
+        ]
+    },
+    {
+        "question": "Nennen Sie Vor- und Nachteile des Stabliniensystems.",
+        "choices": [
+            "Vorteile: Bessere Entscheidungsunterstützung, Entlastung der Führung; Nachteile: Hoher Aufwand",
+            "Vorteile: Klarheit, Einfachheit; Nachteile: Überlastung der Führungskräfte",
+            "Vorteile: Geringe Kosten, Schnelle Entscheidungen; Nachteile: Fehlende Kontrolle",
+            "Vorteile: Gute Kommunikation, Teamarbeit; Nachteile: Langsame Reaktionen"
+        ],
+        "answer": 0,
+        "explanation": [
+            "Vorteile:",
+            "- Bessere Entscheidungsunterstützung durch spezialisierte Stabsstellen",
+            "- Entlastung der Linienführung von komplexen Aufgaben",
+            "- Nutzung von Expertenwissen ohne Störung der Hierarchie",
+            "Nachteile:",
+            "- Hoher organisatorischer und koordinativer Aufwand",
+            "- Potenzielle Konflikte zwischen Stab und Linie",
+            "- Gefahr der Überbetonung von Stabsfunktionen"
+        ]
+    },
+    {
+        "question": "Nennen Sie Vor- und Nachteile des Matrixsystems.",
+        "choices": [
+            "Vorteile: Effiziente Ressourcennutzung, Flexibilität; Nachteile: Konfliktpotenzial",
+            "Vorteile: Klare Kommunikation, Weniger Konflikte",
+            "Nachteile: Starre Strukturen",
+            "Vorteile: Hohe Kontrolle, Geringe Komplexität; Nachteile: Ineffizienz",
+            "Vorteile: Schnellere Entscheidungsfindung, Einfache Kontrolle; Nachteile: Weniger Flexibilität"
+        ],
+        "answer": 0,
+        "explanation": [
+            "Vorteile:",
+            "- Effiziente Ressourcennutzung durch flexible Zuordnung",
+            "- Hohe Anpassungsfähigkeit an komplexe Aufgaben",
+            "- Förderung von interdisziplinärer Zusammenarbeit",
+            "Nachteile:",
+            "- Erhöhtes Konfliktpotenzial durch Mehrfachunterstellung",
+            "- Komplexe Entscheidungsprozesse",
+            "- Mögliche Unklarheiten bei Verantwortlichkeiten und Prioritäten"
+        ]
+    },
+    {
+        "question": "Welche agilen Methoden kennen Sie?",
+        "choices": [
+            "Scrum, Kanban, Extreme Programming",
+            "Wasserfallmodell, V-Modell, Spiralmodell",
+            "PERT, CPM, EVM",
+            "Six Sigma, Lean, Benchmarking"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Scrum: Framework für iterative und inkrementelle Produktentwicklung",
+            "- Kanban: System zur Visualisierung und Optimierung von Arbeitsabläufen",
+            "- Extreme Programming (XP): Fokussiert auf technische Exzellenz und enge Kundeneinbindung",
+            "- Alle diese Methoden teilen agile Grundprinzipien wie Flexibilität, Kundenorientierung und regelmäßige Anpassungen"
+        ]
+    },
+    {
+        "question": "Zu welchem Bereich gehört Extreme Programming?",
+        "choices": [
+            "Agile Methoden",
+            "Traditionelle Methoden",
+            "Qualitätsmanagement",
+            "Risikomanagement"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Gehört zu den agilen Softwareentwicklungsmethoden",
+            "- Fokussiert auf technische Exzellenz und hochwertige Softwareentwicklung",
+            "- Charakterisiert durch Praktiken wie Pair Programming, Test-Driven Development und kontinuierliche Integration",
+            "- Betont häufige Releases und enge Zusammenarbeit mit dem Kunden"
+        ]
+    },
+    {
+        "question": "Zu welchem Bereich gehört Kanban?",
+        "choices": [
+            "Agile Methoden",
+            "Traditionelle Methoden",
+            "Qualitätsmanagement",
+            "Risikomanagement"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Zählt zu den agilen Methoden des Projektmanagements",
+            "- Ursprünglich aus der Lean-Produktion, adaptiert für Softwareentwicklung und Projektmanagement",
+            "- Fokussiert auf Visualisierung des Arbeitsflusses und Limitierung des Work in Progress (WIP)",
+            "- Zielt auf kontinuierliche Verbesserung und Optimierung von Prozessen ab"
+        ]
+    },
+    {
+        "question": "Was ist Scrum?",
+        "choices": [
+            "Eine Methode zur Kostenkontrolle",
+            "Ein agiles Framework zur Projektentwicklung",
+            "Eine Technik zur Ressourcenplanung",
+            "Ein Modell zur Risikoanalyse"
+        ],
+        "answer": 1,
+        "explanation": [
+            "- Ein agiles Framework für komplexe Produktentwicklung, insbesondere in der Softwareentwicklung",
+            "- Charakterisiert durch iterative Entwicklung in Sprints",
+            "- Beinhaltet regelmäßige Überprüfungen und Anpassungen des Produkts und des Prozesses",
+            "- Fördert Selbstorganisation des Teams und enge Zusammenarbeit mit dem Product Owner"
+        ]
+    },
+    {
+        "question": "Welche Rollen gibt es in Scrum?",
+        "choices": [
+            "Product Owner, Scrum Master, Entwicklungsteam",
+            "Projektmanager, Entwickler, Tester",
+            "Teamleiter, Projektmitarbeiter, Kunde",
+            "Sponsor, Projektmanager, Berater"
+        ],
+        "answer": 0,
+        "explanation": [
+            "- Product Owner: Verantwortlich für die Produktvision und Priorisierung des Product Backlogs",
+            "- Scrum Master: Fördert und schützt den Scrum-Prozess, beseitigt Hindernisse",
+            "- Entwicklungsteam: Selbstorganisiertes Team, das die Entwicklungsarbeit durchführt",
+            "- Diese Rollen arbeiten eng zusammen, um das Produkt iterativ zu entwickeln und zu verbessern"
+        ]
+    }
+]
